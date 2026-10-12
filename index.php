@@ -125,7 +125,7 @@
                                     id="inventory_code"
                                     name="inventory_code"
                                     placeholder="GAME-1234"
-                                    required
+                                    
                                 >
 
                                 <div class="form-text">
@@ -153,7 +153,7 @@
                                     id="game_name"
                                     name="game_name"
                                     placeholder="Enter the game name"
-                                    required
+                                    
                                 >
                                 <?php if (isset($errors['game_name'])): ?>
                                     <div class="text-danger">
@@ -175,7 +175,7 @@
                                     class="form-select"
                                     id="console"
                                     name="console"
-                                    required
+                                    
                                 >
                                     <option value="" selected disabled>
                                         Select a console
@@ -226,7 +226,7 @@
                                         placeholder="59.99"
                                         min="0"
                                         step="0.01"
-                                        required
+                                        
                                     >
                                 </div>
                                 <?php if (isset($errors['price'])): ?>
@@ -251,7 +251,7 @@
                                     id="game_image"
                                     name="game_image"
                                     accept="image/*"
-                                    required
+                                    
                                 >
 
                                 <div class="form-text">
